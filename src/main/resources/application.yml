@@ -1,0 +1,13 @@
+﻿
+influx:
+  url: http://database-server.ml:8086
+  token: t61SXzEER6snM2d_vUtPHJyfp1CthkbY6vXzH2JW-nr_R1s8pJlUAyilznFQO-Sg4HCXud4NLYzNkxqzDsZdbg==
+  org: kss
+  bucket: kss_market
+
+graphql:
+  servlet:
+    maxQueryDepth: 2
+    corsEnabled: true
+    mapping: /graphql
+    enabled: true
